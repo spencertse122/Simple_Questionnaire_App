@@ -49,9 +49,9 @@ class IndexView(generic.ListView):
 #     return render(request, 'polls/detail.html',{'question':question})
 
 # Version 2 of detail page
-# class DetailView(generic.DetailView):
-#     model = Question
-#     template_name = 'polls/detail.html'
+class DetailView(generic.DetailView):
+    model = Question
+    template_name = 'polls/detail.html'
 
 # Version 1 of result page
 # def results(request, question_id):
