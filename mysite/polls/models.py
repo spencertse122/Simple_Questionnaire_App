@@ -12,8 +12,10 @@ class Question(models.Model):
         return self.question_text
 
     def was_published_recently(self):
-        return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
-
+        # DISABLED below because it shows future post as recently publisehed
+        # return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
+        now = timezone.now() # new logic labels the cutting line is yesterday <= the Question date <= now 
+        return now - datetime.timedelta(days=1) <= self.pub_date <= now  
 
 class Choice(models.Model):
     question = models.ForeignKey(Question, on_delete=models.CASCADE)
