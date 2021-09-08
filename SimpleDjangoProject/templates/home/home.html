@@ -1,0 +1,13 @@
+
+{% if list_of_apps %}
+    <ul>
+    {% for app in list_of_apps %}
+        {% if "django" not in app.name %}
+            <li><a href="{{ app.name }}">Click here to access: {{ app.name }}</a></li>
+        {%endif %}
+    {% endfor %}
+    </ul>
+
+{% else %}
+    <p>Apps Not Found.</p>
+{% endif %}
