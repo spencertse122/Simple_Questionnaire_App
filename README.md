@@ -1,6 +1,6 @@
 # A Simple Questionnaire App
 
-This is a small project following along the Django official documentation tutorial with a few changes for practice.
+This is a small project following along the Django official documentation tutorial with a few changes for practice. This project was meant to be a first attempt on learning the Django framework to build web apps, understanding the structure and mechanism of how data flow between the web and the database.
 
 ## Introduction
 This simple website utilized the framework and created one polls app under the project. The polls app allow users to vote on different questions. There's also an admin page for content managers to create questions and answer selections.
