@@ -42,7 +42,7 @@ def create_question(question_text, days):
     questions that have yet to be published).
     """
     time = timezone.now() + datetime.timedelta(days=days)
-    return Question.objects.create(quetion_text=question_text, pub_date=time)
+    return Question.objects.create(question_text=question_text, pub_date=time)
 
 class QuestionIndexViewTests(TestCase):
     
@@ -59,9 +59,9 @@ class QuestionIndexViewTests(TestCase):
         """
         Questionss with a pub_date in the past are displayed on the index page
         """
-        question = create_question(quetsion_text="Past question.", days=-30)
+        question = create_question(question_text="Past question.", days=-30)
         response = self.client.get(reverse('polls:index'))
-        self.assertQuerysetEqual(response.context['latest_question_list'], ['quesion'],)
+        self.assertQuerysetEqual(response.context['latest_question_list'], [question],)
 
     def test_future_question(self):
         """
@@ -83,7 +83,7 @@ class QuestionIndexViewTests(TestCase):
 
     def test_two_past_questions(self):
         """
-        The questions index page may display multiple quetsions.
+        The questions index page may display multiple questions.
         """
         question1 = create_question(question_text="Past question 1.", days=-30)
         question2 = create_question(question_text="Past question 2.", days=-5)
@@ -102,7 +102,7 @@ class QuestionDetailViewTests(TestCase):
         
     def test_past_question(self):
         """
-        The detail view of a question with a pub_date in the past displays the quetsion's text.
+        The detail view of a question with a pub_date in the past displays the question's text.
         """
         past_question = create_question(question_text='Past Question.', days=-5)
         url = reverse('polls:detail', args=(past_question.id,))
