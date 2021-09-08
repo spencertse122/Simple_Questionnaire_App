@@ -5,6 +5,7 @@ This is a small project following along the Django official documentation tutori
 ## Introduction
 This simple website utilized the framework and created one polls app under the project. The polls app allow users to vote on different questions. There's also an admin page for content managers to create questions and answer selections.
 
+## Sample Website
 Homepage to select available apps:
 
 <img src="https://user-images.githubusercontent.com/41532715/132582538-fd2d8de1-a189-46ab-a741-7fae0ac22e7f.png" width="800">
