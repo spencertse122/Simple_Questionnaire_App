@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+li a {
+    color: purple;
+    background: rgba(255, 255, 255, .6);
+    font-family: 'Allison';
+    font-size: 70;
+}
+
+body {
+    background: lightgrey url("images/background.jpg") no-repeat center center fixed;
+    height: 100%;
+    width: 100%;
+    background-position: 50% 50%;
+    background-size: 500px 500px
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
