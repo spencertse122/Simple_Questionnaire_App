@@ -7,7 +7,7 @@ This simple website utilized the framework and created one polls app under the p
 
 Homepage to select available apps:
 
-![image](https://user-images.githubusercontent.com/41532715/132582538-fd2d8de1-a189-46ab-a741-7fae0ac22e7f.png | width=100)
+![image](https://user-images.githubusercontent.com/41532715/132582538-fd2d8de1-a189-46ab-a741-7fae0ac22e7f.png){:height="50%" width="50%"}
 
 Polls app index page:
 
