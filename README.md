@@ -7,28 +7,27 @@ This simple website utilized the framework and created one polls app under the p
 
 Homepage to select available apps:
 
-![image](https://user-images.githubusercontent.com/41532715/132582538-fd2d8de1-a189-46ab-a741-7fae0ac22e7f.png){:height="50%" width="50%"}
+<img src="https://user-images.githubusercontent.com/41532715/132582538-fd2d8de1-a189-46ab-a741-7fae0ac22e7f.png" width="800">
 
 Polls app index page:
 
-![image](https://user-images.githubusercontent.com/41532715/132582624-37f56064-48d7-4e22-90bf-ef4ce82808a4.png)
+<img src="https://user-images.githubusercontent.com/41532715/132582624-37f56064-48d7-4e22-90bf-ef4ce82808a4.png" width="800">
 
 Voting page:
 
-![image](https://user-images.githubusercontent.com/41532715/132582688-785553e5-0ea2-4d25-8b4d-463f6316a401.png)
+<img src="https://user-images.githubusercontent.com/41532715/132582688-785553e5-0ea2-4d25-8b4d-463f6316a401.png" width="800">
 
 Result page:
 
-![image](https://user-images.githubusercontent.com/41532715/132582732-dabe6b4a-6481-4e35-ba68-7ae6edd6c26a.png)
+<img src="https://user-images.githubusercontent.com/41532715/132582732-dabe6b4a-6481-4e35-ba68-7ae6edd6c26a.png" width="800">
 
 Admin Login page:
 
-![image](https://user-images.githubusercontent.com/41532715/132582888-d9e310e6-4b17-400c-991d-0ba4512d285f.png)
+<img src="https://user-images.githubusercontent.com/41532715/132582888-d9e310e6-4b17-400c-991d-0ba4512d285f.png" width="800">
 
 Admin page:
 
-![image](https://user-images.githubusercontent.com/41532715/132582827-3d83a9af-2b9b-4dc5-8708-e80a4e58c4dc.png)
-
+<img src="https://user-images.githubusercontent.com/41532715/132582827-3d83a9af-2b9b-4dc5-8708-e80a4e58c4dc.png" width="800">
 
 
 ## Tutorial URL:
